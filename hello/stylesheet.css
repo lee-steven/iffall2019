@@ -1,0 +1,16 @@
+h1{
+    /* font-family: 'Helvetica-Neue', 'Helvetica', 'sans-serif'; */
+    font-family: 'Avenir Next';
+    font-weight: 900;
+    font-style: italic;
+    text-align: center; 
+    font-size: 18vw;
+    /* margin-top: 16vw; */
+    margin-top: 0;
+}
+#hello{
+    margin-top: 5vw;
+}
+#world{
+    margin-top: -15vw;
+}
