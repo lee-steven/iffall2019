@@ -4,16 +4,14 @@ html{
 body{
     margin: 0;
 }
+
 #container{
     display: flex;
-    margin: 5vw 0vw 5vw 15vw;
     height: 100vh;
 }
 
 h1{
-    margin: 0.15em 1em 0 0.75vw;
     font-family: 'Helvetica Neue';
-    font-size: 55px;
     letter-spacing: -5px;
     color: #2e2e2e;
     -webkit-writing-mode: vertical-lr;
@@ -26,14 +24,94 @@ h1{
 }
 
 #list{
-    padding: 0 0 15px 0;
     font-family: 'Avenir Next';
     width: 100vh;
-    font-size: 15.5px;
-    /* border-right: 5px solid #adadad; */
 }
 
-ol{
-    line-height: 3;
-}
+/* X */
+ @media (max-height: 850px){
+    h1{
+        margin: 0px;
+        font-size: 70px;
+    }
 
+    #list{
+        padding: 5px 20px 0 0;
+        font-size: 16px;
+    }
+
+    ol{
+        padding: 0 0 0 30px;
+    }
+ }
+
+ @media (max-height: 750px){
+    h1{
+        margin: 0px;
+        font-size: 65px;
+    }
+
+    #list{
+        padding: 5px 20px 0 0;
+        font-size: 17px;
+    }
+
+    ol{
+        padding: 0 0 0 30px;
+    }
+ }
+
+ @media (max-height: 670px){
+    h1{
+        margin: 0px;
+        font-size: 55px;
+    }
+
+    #list{
+        padding: 5px 20px 0 0;
+        font-size: 15px;
+    }
+
+    ol{
+        padding: 0 0 0 30px;
+    }
+ }
+
+
+ @media (max-height: 570px){
+    h1{
+        margin: 0px;
+        font-size: 50px;
+    }
+
+    #list{
+        padding: 5px 20px 0 0;
+        font-size: 12.4px;
+    }
+
+    ol{
+        padding: 0 0 0 30px;
+    }
+ }
+
+ /* DESKTOP */
+@media (min-width: 1000px){
+
+    #container{
+        margin: 5vw 0vw 5vw 15vw;
+    }
+
+    h1{
+        margin: 0.15em 1em 0 0.75vw;
+        font-size: 59px;
+    }
+
+    #list{
+        padding: 0 0 15px 0;
+        font-size: 15.5px;
+    }
+
+    ol{
+        line-height: 3;
+    }
+}
