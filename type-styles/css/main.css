@@ -1,0 +1,82 @@
+body{
+    font-family: "Helvetica Neue",Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 5vw 0 5vw 10vw;
+}
+
+h1{
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+p1{
+    margin-top: 0;
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+}
+p2{
+    color: gray;
+    font-size: 12px;
+}
+
+/* main{
+    margin-left: 5vw;
+} */
+
+h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+code{
+    color: white;
+}
+span{
+    color: #ff87af;
+}
+div{
+    background-color: #363636;
+    width: 300px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+p{
+    font-size: 13px;
+}
+
+/* Font Weight */
+#normal-weight{
+    font-weight: normal;
+}
+#bold-weight{
+    font-weight: bold;
+}
+#lighter-weight{
+    font-weight: lighter;
+}
+
+/* Font Style */
+#normal-style{
+    font-style: normal;
+}
+#italic-style{
+    font-style: italic;
+}
+#oblique-style{
+    font-style: oblique;
+}
+
+#normal-spacing{ letter-spacing: normal;}
+#three-spacing {letter-spacing: 3px;}
+#negative-spacing{ letter-spacing: -1px;}
+
+#none-transform{text-transform: none;}
+#uppercase-transform{text-transform: uppercase;}
+#lowercase-transform{text-transform: lowercase;}
+
+#underline-decoration{text-decoration: underline;}
+#overline-decoration{text-decoration: overline;}
+#through-decoration{text-decoration: line-through;}
