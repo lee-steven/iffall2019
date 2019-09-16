@@ -1,0 +1,139 @@
+html{
+    background-color: #f5f5f5;
+}
+
+body{
+    margin: 0;
+    max-width: 100%;
+    overflow-x:hidden;
+}
+
+video{
+    width: 100%;
+    display: block;
+    filter: brightness(80%);
+}
+
+
+
+#header-container{
+    color: white;
+    position: absolute;
+    top: 0; 
+    left:0;
+}
+
+#header-container h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 11vw;
+    margin-top: 15vw;
+    margin-left:28vw;
+    margin-bottom: 0;
+}
+
+#header-container h2{
+    font-family: Helvetica;
+    font-size: 1.25vw;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 0vw;
+    margin-left:36vw;
+}
+
+#header-container #arrow{
+    margin-top: 15vw;
+    margin-left:50vw;
+}
+
+#main-container{
+    background-color: white;
+    height: 100%;
+
+    font-family: Programme, Arial, sans-serif;
+
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 25px 40px 18px 50px;
+}
+
+#main-container #lyrics h3{
+    color: #404040;
+    font-size: 13pt;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    font-weight: 500;
+
+    font-style: italic;
+}
+
+#main-container #lyrics p{
+    line-height: 1.5;
+    color: #404040;
+    font-size: 13pt;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#main-container #lyrics .camila,
+#main-container #lyrics .shawn,
+#main-container #lyrics .both{
+    background-color: #ededed;
+    padding: 1px;
+}
+
+#main-container #lyrics .camila:hover{
+    background-color: #ffd1e5;
+    cursor: pointer;
+}
+
+#main-container #lyrics .shawn:hover{
+    background-color: #bed4e6;
+    cursor: pointer;
+}
+
+#main-container #lyrics .both:hover{
+    background-color: #d9ceed;
+    cursor: pointer;
+}
+
+#sidebar{
+    padding-top: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+#sidebar p{
+    display: inline-block;
+    margin-top: -20px;
+}
+
+#sidebar img{
+    border-radius: 50%;
+}
+
+#camilaProfile{
+    border: 5px solid #ffd1e5;
+    margin-right: 40px;
+}
+
+#shawnProfile{
+    border: 5px solid #bed4e6;
+    margin-right: 40px;
+}
+
+#bothProfile{
+    border: 5px solid #d9ceed;
+}
+
+audio{
+    width: 85%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    outline: none;
+}
