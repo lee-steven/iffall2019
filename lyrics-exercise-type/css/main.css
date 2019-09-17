@@ -9,7 +9,7 @@ body{
 }
 
 video{
-    width: 100%;
+    width: 190vh;
     display: block;
     filter: brightness(80%);
 }
