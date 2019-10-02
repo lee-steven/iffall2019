@@ -2,9 +2,13 @@
     float: right;
 }
 
+.section2{
+    position: relative;
+}
 .section2 aside{
     position:  absolute;
-    right: 280px;
+    bottom: 0px;
+    right: 0px;
 }
 
 .section3 aside{
