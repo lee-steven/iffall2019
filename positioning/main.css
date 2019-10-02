@@ -1,0 +1,40 @@
+.section1 aside{
+    float: right;
+}
+
+.section2 aside{
+    position:  absolute;
+    right: 280px;
+}
+
+.section3 aside{
+    position: fixed;
+    background-color: green;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+.section4{
+    position: relative;
+}
+
+.section4 aside{
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: -100px;
+}
+.section4 .callout1{
+    background-color: red;
+    z-index: 1;
+}
+.section4 .callout2{
+    background-color: black;
+    z-index: 0;
+    top: 50%;
+    margin-top: -80px;
+    left: 50%;
+    margin-left: -130px;
+}
