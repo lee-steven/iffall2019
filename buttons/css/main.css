@@ -1,0 +1,365 @@
+html{
+    background-color: #fcfcfc;
+}
+body{
+    margin: 3rem auto;
+    width: 700px;
+    max-width: 80%;
+    height: 100vh;
+    font-family: Lato;
+}
+
+h1,
+h2{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 16.75px;
+    margin-top: 10px;
+    color: #828282;
+    font-weight: 400;
+}
+p{
+    text-align: justify;
+    width: 375px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 12px;
+    color: darkgray;
+    margin-bottom: 15px;
+}
+
+header{
+    position: relative;
+}
+main{
+    max-width: inherit;
+    margin: 0 auto;
+}
+.button-container{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 15px 15px;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+a{
+    display: block;
+    margin: auto;
+    margin-top: 77px;
+    padding-top: 8px;
+    text-decoration: none;
+}
+
+#instagram{
+    font-family: 'Grand Hotel', cursive;
+    color: #292929;
+    font-size: 35px;
+    font-weight: 400;
+}
+#instagram:hover{
+    color:#ababab;
+}
+
+#airbnb{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: #FF5A5A;
+    border: 2px solid #FF5A5A;
+    width: 125px;
+    height: 15px;
+    border-radius: 4px;
+    padding: 5px 5px 15px 5px;
+}
+#airbnb img{
+    position: relative;
+    top: 3px;
+    left: -3px;
+    color: white;
+}
+#airbnb:hover{
+    background-color: white;
+    color: #FF5A5A;
+    
+}
+#coursera{
+    border: 1px solid #006ae3;
+    background-color: #006ae3;
+    color: white;
+    padding: 10px 0;
+    width: 120px;
+    border-radius: 20px;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+#coursera:hover{
+    border: 1px solid #1c60ad;
+    background-color: #1c60ad;
+    opacity: 1
+}
+
+.slack{
+    background-color: #4a154b;
+
+}
+#slack{
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: #4a154b;
+    border: 1px solid #4a154b;
+    border-radius: 4px;
+    padding: 7px 10px 7px 10px;
+}
+#slack:hover{
+    border: 3px solid #4a154b;
+    background-color: white;
+    color: #4a154b;
+    padding: 5px 10px 5px 10px;
+}
+
+
+#square{
+    font-family: Helvetica;
+    color: black;
+}
+#square img{
+    margin-bottom: 7px;
+    position: relative;
+    animation-iteration-count:infinite;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+/* Standard syntax */
+@keyframes example {
+    0%   {transform: rotate(0deg);}
+    25%  {transform: rotate(90deg);}
+    50%  {transform: rotate(180deg);}
+    75%  {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.vimeo{
+}
+#vimeo{
+
+}
+
+#yelp{
+    transition: all .2s ease-in-out;
+}
+#yelp:hover{
+    transform: scale(2);
+}
+
+#wework{
+    font-family: "Garamond Pro";
+    color: black;
+    font-weight: 550;
+    font-size: 30px;
+    width: 100px;
+    text-decoration: none;
+    position: relative;
+}
+
+#wework:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid black;
+    transition: 0.6s;
+}
+#wework:hover:after{
+    width: 100%;
+}
+
+#google{
+    position: relative;
+    top: -25px;
+}
+
+#google:hover{
+    -webkit-animation-name: googleAni; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: googleAni;
+    animation-duration: 2s;
+}
+@keyframes googleAni {
+    0%   {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+#lyft{
+    font-family: 'Montserrat', sans-serif;
+    color: #ea0a8c;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#lyft:hover{
+    transform: translateX(50px);
+    transition: all 0.5s ease-out;
+}
+
+#tripAdvisor{
+    position: relative;
+    top: -100px;
+}
+ul{
+    position: relative;
+    top: -200px;
+    left: -20px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+.circle{
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    margin: 10px;
+    background-color: #589442;
+    transition: all 1.5s ease;
+
+}
+.tripadvisorHov .circle:hover{
+    transform: translateY(-10px);
+}
+
+#youtube{
+    position: relative;
+    top: -20px;
+
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 130px;
+}
+#youtube:active {
+    box-shadow: 0 5px  #666;
+    transform: translateY(5px);
+}
+
+#buzzfeed{
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ed3321;
+    border: 2px solid #ed3321;
+    border-radius: 4px;
+    padding: 5px 7px 3px 7px;
+}
+#buzzfeed:hover{
+    background-color: #ed3321;
+    color: white;
+}
+.lowercase{
+    font-size: 23px;
+    font-weight: 900;
+}
+#buzzfeed .after{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+#buzzfeed .after:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+#buzzfeed:hover .after {
+    padding-right: 25px;
+}
+  
+#buzzfeed:hover .after:after {
+    opacity: 1;
+    right: 0;
+}
+  
+
+#vimeo {
+    font-family: cursive;
+    font-weight: 900;
+    position: relative;
+    background-color: #1ab7ea;
+    border-radius: 5px;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #vimeo:after {
+    content: "";
+    background: white;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  #vimeo:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+#paypal{
+    color: white;
+    padding: 10px 10px 10px 10px;
+    width: 100px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.btn-grad {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+}
+
+.btn-grad:hover { 
+    background-position: right center; 
+}
+
+#pinterest{
+    position: relative;
+    top: -30px;
+}
+#pinterest:hover{
+    /* border-radius: 50%;
+    width: 120px;
+    box-shadow: 0 9px #999; */
+    border-radius: 50%;
+    background-color: lightgray;
+    width: 112px;
+}
