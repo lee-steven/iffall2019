@@ -1,0 +1,136 @@
+/* html{
+    width: 100%;
+} */
+body{
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   max-width: 100%;
+   width: 100%;
+    color: #464646;
+}
+
+nav{
+    background-color: #B03500;
+    color: white;
+}
+
+nav #menu{
+    display: hidden;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* NAVIGATION HEADER */
+    nav{
+        padding: 1px 10px;
+    }
+    #navigation-content{
+        margin: 10px 0;
+        position: relative;
+    }
+    nav #menu{
+        position: fixed;
+        display: block;
+        float: left;
+        margin-top: 2px;
+        margin-left: 5px;
+    }
+    nav .hamburger{
+        width: 20px;
+        height: 2px;
+        background-color: white;
+        margin: 4px 0;
+    }
+    nav h2{
+        text-align: center;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    /* INTRODUCTION CONTENT */
+    #introduction-content{
+        display: relative;
+        height: 90vh;
+        width: 100%;
+    }
+
+    #image-introduction{
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        width: 70vh;
+    }
+    #main-introduction{
+        margin: 0 auto;
+        padding: 0 30px;
+        position: relative;
+        top: 300px;
+    }
+    #introduction-content #main-introduction h1{
+        font-weight: 600;
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    #introduction-content #main-introduction h2{
+        font-weight: 400;
+        font-size: 12px;
+        color: #898989;
+    }
+    #introduction-content #main-introduction p{
+        margin-top: 38px;
+        font-size: 16px;
+        color: #464646;
+    }
+
+
+    /* INGREDIENTS */
+    .section-header{
+        background-color:#F0F0F0;
+        padding: 10px 0;
+        margin-top: 50px;
+    }
+    .section-header h2{
+        padding: 0;
+        margin: 0;
+        margin-left: 10%;
+    }
+    #ingredients-content #ingredients-list ul{
+        list-style: none;
+        line-height: 3;
+        color: #464646;
+    }
+    #ingredients-content #ingredients-list ul li{
+        font-size: 16px;
+    } 
+
+    /* PREPARATION CONTENT */
+    #preparation-content #preparation-main{
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    #preparation-content p{
+        font-size: 16px;
+        color: #464646;
+
+    }
+    .preparation-img{
+        width: 100%;
+    }
+
+    /* REVIEWS */
+    #reviews{
+        padding: 10px 0;
+        margin-top: 50px;
+    }
+    #reviews h2{
+        padding: 0;
+        margin: 0;
+        margin-left: 10%;
+    }
+    #reviews #reviews-content div p{
+        margin: 20px auto;
+        padding: 0 40px;
+        font-size: 14px;
+    }
+}
