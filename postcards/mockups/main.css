@@ -1,0 +1,57 @@
+html{
+    background-color: #f2f2f2;
+}
+body{
+    font-family: Lato, "Helvetica Neue", Helvetica, sans-serif;
+}
+#header{
+    text-align: center;
+    margin-top: 50px;
+}
+#header h1{
+    font-size: 30px;
+}
+#header h2{
+    font-size: 20px;
+    color: gray;
+    font-weight: 500;
+}
+main{
+    margin: 0 auto;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+}
+main div{
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+    width: 90%;
+}
+.desktopImage{
+    width: 60%;
+    margin-right: 20px;
+}
+.mobileImage{
+    width: 22.25%;
+}
+
+h3{
+    color: gray;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#funSection{
+    margin: 0 auto;
+    text-align: center;
+}
+#funSection div{
+    margin-top: 50px;
+}
+.funImage{
+    max-width: 800px;
+    width: 100%;
+}
