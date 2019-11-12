@@ -1,0 +1,306 @@
+body{
+    margin: 0;
+}
+a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+/* MOBILE */
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* AVENGERS/CAPTAIN AMERICA */
+    #postcard1{
+        background-image: url(media/AvengersAssemble.jpg);
+        background-size: 415%;
+        background-repeat: cover;
+        background-repeat:no-repeat;
+        background-position: 15% 0%;
+    }
+    #postcard1 div{
+        margin: 0 auto;
+    }
+    #avengers{
+        display: none;
+    }
+    #avengers-text{
+        font-family: benton-sans-extra-compressed, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        color: white;
+        letter-spacing: 0.5px;
+        font-size: 30px;
+        text-align: center;
+    }
+    #postcard1 div{
+        position: absolute;
+        bottom: 10%;
+        left: 12%;
+    }
+    #postcard1 div p{
+        position: absolute;
+        font-size: 24px;
+        right: 0;
+    }
+
+    /* IRON MAN */
+    #postcard2{
+        background-image: url(media/ironMan.jpg);
+        background-size: 415%;
+        background-repeat: cover;
+        background-repeat:no-repeat;
+        background-position: 56% 0%;
+    }
+    #postcard2 div{
+        margin: 0 auto;
+    }
+    #ironman{
+        display: none;
+    }
+    #ironman-text{
+        font-family: benton-sans-extra-compressed, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        color: white;
+        letter-spacing: 0.5px;
+        font-size: 30px;
+        text-align: center;
+    }
+    #postcard2 div{
+        position: absolute;
+        bottom: 27%;
+        left: 15%;
+    }
+    #postcard2 div p{
+        position: absolute;
+        top: 100px;
+        font-size: 24px;
+        right: 0;
+    }
+
+        /* IRON MAN */
+        #postcard3{
+            background-image: url(media/Spiderman.jpg);
+            background-size: 455%;
+            background-repeat: cover;
+            background-repeat:no-repeat;
+            background-position: 56% 0%;
+        }
+        #postcard3 div{
+            margin: 0 auto;
+        }
+        #spiderman{
+            display: none;
+        }
+        #spiderman-text{
+            font-family: benton-sans-extra-compressed, sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            color: white;
+            letter-spacing: 0.5px;
+            font-size: 30px;
+            text-align: center;
+        }
+        #postcard3 div{
+            position: absolute;
+            bottom: 20%;
+            left: 15%;
+        }
+        #postcard3 div p{
+            position: absolute;
+            top: 100px;
+            font-size: 24px;
+            right: 0;
+        }
+
+}
+@media (min-width: 481px) and (max-width: 1200px) {
+
+    /* AVENGERS/CAPTAIN AMERICA */
+    #avengers{
+        height: 100vh;
+        z-index: -1;
+    }
+    #avengers-text{
+        font-family: benton-sans-extra-compressed, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 40px;
+        color: white;
+        letter-spacing: 0.5px;
+        position: relative;
+        top: -325px;
+        left: 50px;
+        float: left;
+        text-align: center;
+    }
+    #postcard1 div{
+        font-size: 40px;
+    }
+    #postcard1 div p{
+        position: absolute;
+        bottom: 0;
+        left: 200px;
+    }
+    
+    /* IRON MAN */
+    #ironman{
+        position: relative;
+        left: -300px;
+        height: 105vh;
+        z-index: -1;
+    }
+    #ironman-text{
+        font-family: benton-sans-extra-compressed, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 40px;
+        color: white;
+        position: relative;
+        top: -325px;
+        left: -18%;
+        text-align: center;
+    }
+    #postcard2 div{
+        margin-left: 40px;
+    }
+    #postcard2 div p{
+        position: absolute;
+        font-size: 40px;
+        top: 650px;
+        left: 33%;
+    }
+    /* SPIDERMAN */
+    #spiderman{
+        position: relative;
+        height: 100vh;
+        z-index: -1;
+        left: -400px;
+
+    }
+    #spiderman-text{
+        font-family: benton-sans-extra-compressed, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 40px;
+        color: white;
+        letter-spacing: 0.5px;
+     
+        text-align: center;
+    }
+    #postcard3 div{
+        position: relative;
+        top: -350px;
+        right: 0px;
+        font-size: 40px;
+    }
+    #postcard3 div p{
+        position: absolute;
+        right: 200px;
+        top: 110px;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 1201px) {
+
+    /* AVENGERS/CAPTAIN AMERICA */
+    #avengers{
+        height: 100vh;
+        z-index: -1;
+    }
+    #avengers-text{
+        font-family: benton-sans-extra-compressed, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 40px;
+        color: white;
+        letter-spacing: 0.5px;
+     
+        text-align: center;
+    }
+    #postcard1 div{
+        position: relative;
+        top: -650px;
+        right: -450px;
+        margin-right: 300px;
+        font-size: 40px;
+    }
+    #postcard1 div p{
+        position: absolute;
+        right: 400px;
+        top: 175px;
+    }
+
+    /* IRON MAN */
+    #ironman{
+        height: 105vh;
+        z-index: -1;
+    }
+    #ironman-text{
+        font-family: benton-sans-extra-compressed, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 40px;
+        color: white;
+        position: relative;
+        top: -700px;
+        left: -27%;
+        text-align: center;
+    }
+    #postcard2 div p{
+        position: absolute;
+        font-size: 40px;
+        top: 285px;
+        left: 24%;
+    }
+
+
+    /* SPIDERMAN */
+    #spiderman{
+        height: 100vh;
+        z-index: -1;
+    }
+    #spiderman-text{
+        font-family: benton-sans-extra-compressed, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 40px;
+        color: white;
+        letter-spacing: 0.5px;
+     
+        text-align: center;
+    }
+    #postcard3 div{
+        position: relative;
+        top: -350px;
+        right: 0px;
+        font-size: 40px;
+    }
+    #postcard3 div p{
+        position: absolute;
+        right: 630px;
+        top: 110px;
+    }
+}
+
+#postcard1,
+#postcard2,
+#postcard3{
+    overflow: hidden;
+}
+
+p{
+    text-decoration: underline;
+    margin-top:0;
+    font-family: benton-sans-extra-compressed, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
