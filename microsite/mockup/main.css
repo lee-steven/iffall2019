@@ -1,0 +1,38 @@
+body{
+    font-family: Lato, sans-serif;
+
+}
+
+#container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+}
+#header{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 20px;
+    margin-top: 0;
+    color: gray;
+}
+h3{
+    font-weight: 800;
+    font-size: 18px;
+    border: 2.5px solid black;
+    padding: 5px 10px;
+    width: 95px;
+}
+
+img{
+    width: 100%;
+}
+
+.section{
+    margin-top: 50px;
+}
