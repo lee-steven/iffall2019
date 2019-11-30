@@ -199,7 +199,7 @@ html,body{
 
 }
 
-#container #history-section #history-footer #history-quote{
+.history-quote{
     font-family: ohno-blazeface,sans-serif;
     font-style: normal;
     color: #151515;
@@ -231,7 +231,7 @@ html,body{
     text-align: center;
 }
 #container #sex-section #sex-content video{
-    border-radius: 10px;
+    border-radius: 15px;
     outline: none;
     margin-left: 8vw;
     position: relative; 
@@ -245,10 +245,27 @@ html,body{
     right: 3vw;
     z-index:0;
 }
-#container #sex-section #sex-content .citation{
+#container #sex-section #sex-content #sex-citation{
     position: relative;
     top: -15vh;
     left: -3vw;
+}
+#container #sex-section #sex-content #sex-quote{
+    font-family: p22-underground,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    font-size: 28px;
+    max-width: 560px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 53vw;
+    margin-top: -6vh;
+}
+#container #sex-section #sex-content #sex-quote span{
+    font-style: italic;
+    font-weight: 600;
 }
 #container #sex-section #sex-content #sex-1{
     font-family: p22-underground,sans-serif;
@@ -260,9 +277,46 @@ html,body{
     width: 100%;
     margin: 0;
     padding: 0;
-}
-#container #sex-section #sex-content #sex-1{
+    margin-top: 10vh;
     margin-left: 53vw;
+    margin-bottom: 0;
+}
+#container #sex-section #sex-content #sex-quote-section{
+    margin: 0 auto;
+    max-width: 950px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+#container #sex-section #sex-content #sex-quote-section img{
+    width: 85%;
+    position: relative;
+    z-index: 0;
+    top: -70vh;
+}
+#container #sex-section #sex-content #sex-image2{
+    width: 100%;
+    max-width: 90%;
+    margin-left: 5vw;
+    margin-top: -50vh;
+
+    position: relative;
+    z-index:0;
+    
+}
+#container #sex-section #sex-content #sex-2{
+    font-family: p22-underground,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    font-size: 20px;
+    max-width: 560px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 10vh;
+    margin-left: 3vw;
+    padding-bottom: 20vh;
 }
 
 
@@ -289,7 +343,7 @@ html,body{
     position: relative;
     z-index: 0;
     margin-left: 2vw;
-    padding-top: 20vw;
+    padding-top: 10vh;
     margin-bottom: 18vw;
 }
 #container #legacy-section #legacy-header #legacy-image2{
@@ -312,11 +366,47 @@ html,body{
     font-family: p22-underground,sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 22px;
+    font-size: 20px;
     max-width: 540px;
     width: 100%;
     margin: 0;
     padding: 0;
+    margin-left: 50vw;
+    margin-top: -15vh;
+}
+#container #legacy-section #legacy-content video{
+    border-radius: 15px;
+    outline: none;
+    margin-left: 58vw;
+    margin-top: -10vh;
+    width: 100%;
+    max-width: 40%;
+    position: relative; 
+    z-index:1;
+}
+#container #legacy-section #legacy-content #legacy-image3{
+    max-width: 75%;
+    width: 100%;
+    margin-left: 5vw;
+    margin-top: -10vh;
+}
+
+#container #legacy-content #legacy-2{
+    color: white;
+    font-family: p22-underground,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    max-width: 540px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 10vh;
+    margin-left: 8vw;
+    margin-bottom: 0;
+}
+#legacy-space{
+    padding-bottom: 40vh;
 }
 
 /*  *//*  *//*  *//*  */
@@ -325,4 +415,24 @@ html,body{
 #container #sources-section{
     height: 100%;
     background-color: #404040;
+    margin: 0 auto; 
+    width: 100%;
+    max-width: 100%;
+
+}
+#container #sources-section #sources-content{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+#sources-section h1{
+    color: white;
+    text-align: center;
+}
+ul{
+    color: white;
+    font-family: p22-underground,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
 }
