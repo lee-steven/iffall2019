@@ -11,428 +11,2171 @@ html,body{
 }
 #container{
     height: 100%;
+    width: 100vw;
+    /* overflow-x: hidden; */
+}
+
+
+/* LARGER DESKTOP */
+@media (min-width: 1250px) {
+    /*  *//*  *//*  *//*  */
+    /* LANDING SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #landing{
+        background-image: url("media/saltnpepa.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #container #landing h1{
+        color: white;
+        font-size: 130px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+        position: relative; 
+        top: 29%;
+    }
+    #container #landing #landing-sticker{
+        height: 160px;
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    #container #landing #buttons-section{
+        /* MAKE BUTTON SECTION DISAPPEAR AT CERTAIN SIZE */
+        position: fixed;
+        right: 60px;
+        top: 40px;
+    }
+    #container #landing #buttons-section button{
+        display: block;
+    }
+    #container #landing #buttons-section .landing-buttons{
+        border: 1px solid #d7d7d7;
+        outline: none;
+        background-color: transparent;
+        border-radius: 100px;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+    }
+    #container #landing #buttons-section .buttons-image{
+        height: 15px;
+    }
+    #container #landing #author-section{
+        padding-right: 60px;
+        text-align: right;
+        position: absolute;
+        bottom: 100px;
+        right: 40px;
+
+    }
+    #container #landing #author-section h3{
+        color: white;
+        margin: 0;
+        padding: 0; 
+        font-family: p22-underground,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+    }
+    #container #landing #author-section span{
+        font-family: p22-underground,sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+    #container #landing h2{
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        color: white;
+        font-size: 60px;
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+    }
+
+    .sectionHeaders{
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 140px;
+        margin: 0;
+        padding-top: 250px;
+    }
+    .citation{
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 12px;
+        display: inline-block;    
+    }
+
+
+
+    /*  *//*  *//*  *//*  */
+    /* HISTORY SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #history-section{
+        background-color: #E6382C;
+    }
+    #container #history-section #history-header{
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;   
+    }
+    #container #history-section #history-header h1{
+        position: relative;
+        color: #151515;
+        line-height: 1;
+        z-index: 1;
+    }
+    #container #history-section #history-header #historyImage{
+        display: inline-block;
+        position: relative;
+        top: -70px;
+        z-index: 0;
+    }
+    #container #history-section #history-header p{
+        position: relative;
+        top: -70px;
+    }
+    #container #history-section #history-header #history-triangle{
+        position: relative;
+        z-index: 1;
+        right: 0;
+        top: 0;
+        opacity: 0.85;
+    }
+    #container #history-section #history-content #history-1,
+    #container #history-section #history-content #history-2{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 22px;
+        max-width: 540px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #container #history-section #history-content #history-1{
+        margin-top: 5vh;
+        margin-left: 7vw;
+        position: relative; 
+        z-index: 1;
+    }
+    #container #history-section #history-content #history-image{
+        margin-left: 25vw;
+        margin-top: 15vh;
+        width: 70%;
+    }
+    #container #history-section #history-content #history-2{
+        margin-top: 8vh;
+        margin-left: 48vw;
+    }
+    #container #history-section #history-footer{
+        margin: 0 auto;
+        max-width: 950px;
+        width: 100%;
+        text-align: center;
+    }
+    .quote-symbol{
+        font-size: 70px;
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        margin:0;
+        padding: 0;
+
+        position: relative;
+        top: 35px;
+        z-index: 1;
+
+        margin-top: 37vh;
+
+    }
+
+    .history-quote{
+        font-family: ohno-blazeface,sans-serif;
+        font-style: normal;
+        color: #151515;
+        font-size: 55px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        z-index:1;
+        /* margin-top: 30vh; */
+    }
+    #container #history-section #history-footer img{
+        width: 50%;
+        position: relative;
+        z-index: 0;
+        top: -45vh;
+
+    }
+
+
+    /*  *//*  *//*  *//*  */
+    /*   SEX SECTION    */
+    /*  *//*  *//*  *//*  */
+    #container #sex-section{
+        /* height: 100%; */
+        background-color: #FFCF07;
+    }
+    #container #sex-section #sex-header h1{
+        text-align: center;
+    }
+    #container #sex-section #sex-content video{
+        border-radius: 15px;
+        outline: none;
+        margin-left: 8vw;
+        position: relative; 
+        z-index:1;
+    }
+    #container #sex-section #sex-content #sex-image1{
+        width: 40%;
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+        position: relative;
+        right: 3vw;
+        z-index:0;
+    }
+    #container #sex-section #sex-content #sex-citation{
+        position: relative;
+        top: -15vh;
+        left: -3vw;
+    }
+    #container #sex-section #sex-content #sex-quote{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 28px;
+        max-width: 560px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 47vw;
+        margin-top: -6vh;
+    }
+    #container #sex-section #sex-content #sex-quote span{
+        font-style: italic;
+        font-weight: 600;
+    }
+    #container #sex-section #sex-content #sex-1{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 20px;
+        max-width: 560px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 10vh;
+        margin-left: 47vw;
+        margin-bottom: 0;
+    }
+    #container #sex-section #sex-content #sex-quote-section{
+        margin: 0 auto;
+        max-width: 950px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    #container #sex-section #sex-content #sex-quote-section img{
+        width: 85%;
+        position: relative;
+        z-index: 0;
+        top: -70vh;
+    }
+    #container #sex-section #sex-content #sex-image2{
+        width: 100%;
+        max-width: 90%;
+        margin-left: 5vw;
+        margin-top: -50vh;
+
+        position: relative;
+        z-index:0;
+        
+    }
+    #container #sex-section #sex-content #sex-2{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 20px;
+        max-width: 560px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 10vh;
+        margin-left: 3vw;
+        padding-bottom: 20vh;
+    }
+
+
+    /*  *//*  *//*  *//*  */
+    /* LEGACY SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #legacy-section{
+        background-color: #16752B;
+    }
+    #container #legacy-section #legacy-header{
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;   
+    }
+    #container #legacy-section #legacy-header h1{
+        color: white;
+        text-align: center;
+        font-size: 170px;
+        padding-top: 250px;
+    }
+    #container #legacy-section #legacy-header #legacy-image1{
+        text-align: center;
+        position: relative;
+        z-index: 0;
+        margin-left: 2vw;
+        padding-top: 10vh;
+        margin-bottom: 18vw;
+    }
+    #container #legacy-section #legacy-header #legacy-image2{
+        text-align: center;
+        position: relative;
+        height: 32vw;
+        z-index:1;
+        opacity: 0.85;
+        z-index: 2;
+        margin-top: -30vw;
+        margin-right: -7vw;
+    }
+    #container #legacy-section #legacy-header p{
+        display: inline-block;
+        position: relative;
+        top: -18vw;
+    }
+    #container #legacy-content #legacy-1{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 20px;
+        max-width: 540px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 47vw;
+        margin-top: -15vh;
+    }
+    #container #legacy-section #legacy-content video{
+        border-radius: 15px;
+        outline: none;
+        margin-left: 50vw;
+        margin-top: -10vh;
+        width: 100%;
+        max-width: 40%;
+        position: relative; 
+        z-index:1;
+    }
+    #container #legacy-section #legacy-content #legacy-image3{
+        max-width: 75%;
+        width: 100%;
+        margin-left: 5vw;
+        margin-top: -10vh;
+    }
+
+    #container #legacy-content #legacy-2{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 20px;
+        max-width: 540px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 10vh;
+        margin-left: 8vw;
+        margin-bottom: 0;
+    }
+    #legacy-space{
+        padding-bottom: 40vh;
+    }
+
+    /*  *//*  *//*  *//*  */
+    /* SOURCES SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #sources-section{
+        height: 100%;
+        background-color: #404040;
+        margin: 0 auto; 
+        width: 100%;
+        max-width: 100%;
+
+    }
+    #container #sources-section #sources-content{
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    #sources-section h1{
+        color: white;
+        text-align: center;
+    }
+    ul{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+    }
 }
 
 
 
-/*  *//*  *//*  *//*  */
-/* LANDING SECTION  */
-/*  *//*  *//*  *//*  */
-#container #landing{
-    background-image: url("media/saltnpepa.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#container #landing h1{
-    color: white;
-    font-size: 130px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-
-    position: relative; 
-    top: 29%;
-}
-#container #landing #landing-sticker{
-    height: 160px;
-    padding-top: 40px;
-    padding-left: 40px;
-}
-#container #landing #buttons-section{
-    /* MAKE BUTTON SECTION DISAPPEAR AT CERTAIN SIZE */
-    position: fixed;
-    right: 60px;
-    top: 40px;
-}
-#container #landing #buttons-section button{
-    display: block;
-}
-#container #landing #buttons-section .landing-buttons{
-    border: 1px solid #d7d7d7;
-    outline: none;
-    background-color: transparent;
-    border-radius: 100px;
-    height: 30px;
-    width: 30px;
-    cursor: pointer;
-    margin: 0;
-    padding: 0;
-    margin-top: 15px;
-}
-#container #landing #buttons-section .buttons-image{
-    height: 15px;
-}
-#container #landing #author-section{
-    padding-right: 60px;
-    text-align: right;
-    position: absolute;
-    bottom: 100px;
-    right: 40px;
-
-}
-#container #landing #author-section h3{
-    color: white;
-    margin: 0;
-    padding: 0; 
-    font-family: p22-underground,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-}
-#container #landing #author-section span{
-    font-family: p22-underground,sans-serif;
-    font-weight: 900;
-    font-style: normal;
-}
-#container #landing h2{
-    font-family: ohno-blazeface,sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: white;
-    font-size: 60px;
-    position: absolute;
-    bottom: 0;
-    margin: 0;
-}
-
-.sectionHeaders{
-    font-family: ohno-blazeface,sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 140px;
-    margin: 0;
-    padding-top: 250px;
-}
-.citation{
-    writing-mode: vertical-rl;
-    text-orientation: sideways;
-    font-family: p22-underground,sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 12px;
-    display: inline-block;    
-}
 
 
 
-/*  *//*  *//*  *//*  */
-/* HISTORY SECTION  */
-/*  *//*  *//*  *//*  */
-#container #history-section{
-    background-color: #E6382C;
-}
-#container #history-section #history-header{
-    margin: 0 auto;
-    max-width: 100%;
-    width: 100%;
-    text-align: center;   
-}
-#container #history-section #history-header h1{
-    position: relative;
-    color: #151515;
-    line-height: 1;
-    z-index: 1;
-}
-#container #history-section #history-header #historyImage{
-    display: inline-block;
-    position: relative;
-    top: -70px;
-    z-index: 0;
-}
-#container #history-section #history-header p{
-    position: relative;
-    top: -70px;
-}
-#container #history-section #history-header #history-triangle{
-    position: absolute;
-    z-index: 1;
-    opacity: 0.85;
-    right: 150px;
-}
-#container #history-section #history-content #history-1,
-#container #history-section #history-content #history-2{
-    font-family: p22-underground,sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: black;
-    font-size: 22px;
-    max-width: 540px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-#container #history-section #history-content #history-1{
-    margin-top: 5vh;
-    margin-left: 7vw;
-    position: relative; 
-    z-index: 1;
-}
-#container #history-section #history-content #history-image{
-    margin-left: 25vw;
-    margin-top: 15vh;
-    width: 70%;
-}
-#container #history-section #history-content #history-2{
-    margin-top: 8vh;
-    margin-left: 58.5vw;
-}
-#container #history-section #history-footer{
-    margin: 0 auto;
-    max-width: 950px;
-    width: 100%;
-    text-align: center;
-}
-.quote-symbol{
-    font-size: 70px;
-    font-family: ohno-blazeface,sans-serif;
-    font-weight: 100;
-    margin:0;
-    padding: 0;
-
-    position: relative;
-    top: 35px;
-    z-index: 1;
-
-    margin-top: 37vh;
-
-}
-
-.history-quote{
-    font-family: ohno-blazeface,sans-serif;
-    font-style: normal;
-    color: #151515;
-    font-size: 55px;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    position: relative;
-    z-index:1;
-    /* margin-top: 30vh; */
-}
-#container #history-section #history-footer img{
-    width: 50%;
-    position: relative;
-    z-index: 0;
-    top: -45vh;
-
-}
 
 
-/*  *//*  *//*  *//*  */
-/*   SEX SECTION    */
-/*  *//*  *//*  *//*  */
-#container #sex-section{
-    /* height: 100%; */
-    background-color: #FFCF07;
-}
-#container #sex-section #sex-header h1{
-    text-align: center;
-}
-#container #sex-section #sex-content video{
-    border-radius: 15px;
-    outline: none;
-    margin-left: 8vw;
-    position: relative; 
-    z-index:1;
-}
-#container #sex-section #sex-content #sex-image1{
-    width: 40%;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
-    position: relative;
-    right: 3vw;
-    z-index:0;
-}
-#container #sex-section #sex-content #sex-citation{
-    position: relative;
-    top: -15vh;
-    left: -3vw;
-}
-#container #sex-section #sex-content #sex-quote{
-    font-family: p22-underground,sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: black;
-    font-size: 28px;
-    max-width: 560px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    margin-left: 53vw;
-    margin-top: -6vh;
-}
-#container #sex-section #sex-content #sex-quote span{
-    font-style: italic;
-    font-weight: 600;
-}
-#container #sex-section #sex-content #sex-1{
-    font-family: p22-underground,sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: black;
-    font-size: 20px;
-    max-width: 560px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    margin-top: 10vh;
-    margin-left: 53vw;
-    margin-bottom: 0;
-}
-#container #sex-section #sex-content #sex-quote-section{
-    margin: 0 auto;
-    max-width: 950px;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 0;
-}
-#container #sex-section #sex-content #sex-quote-section img{
-    width: 85%;
-    position: relative;
-    z-index: 0;
-    top: -70vh;
-}
-#container #sex-section #sex-content #sex-image2{
-    width: 100%;
-    max-width: 90%;
-    margin-left: 5vw;
-    margin-top: -50vh;
 
-    position: relative;
-    z-index:0;
+
+/* SMALLER DESKTOP */
+@media (min-width: 1025px) and (max-width: 1250px) {
+  
+    /*  *//*  *//*  *//*  */
+    /* LANDING SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #landing{
+        background-image: url("media/saltnpepa.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #container #landing h1{
+        color: white;
+        font-size: 130px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+        position: relative; 
+        top: 29%;
+    }
+    #container #landing #landing-sticker{
+        height: 160px;
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    #container #landing #buttons-section{
+        /* MAKE BUTTON SECTION DISAPPEAR AT CERTAIN SIZE */
+        position: fixed;
+        right: 60px;
+        top: 40px;
+    }
+    #container #landing #buttons-section button{
+        display: block;
+    }
+    #container #landing #buttons-section .landing-buttons{
+        border: 1px solid #d7d7d7;
+        outline: none;
+        background-color: transparent;
+        border-radius: 100px;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+    }
+    #container #landing #buttons-section .buttons-image{
+        height: 15px;
+    }
+    #container #landing #author-section{
+        padding-right: 60px;
+        text-align: right;
+        position: absolute;
+        bottom: 100px;
+        right: 40px;
+
+    }
+    #container #landing #author-section h3{
+        color: white;
+        margin: 0;
+        padding: 0; 
+        font-family: p22-underground,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+    }
+    #container #landing #author-section span{
+        font-family: p22-underground,sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+    #container #landing h2{
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        color: white;
+        font-size: 60px;
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+    }
+
+    .sectionHeaders{
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 120px;
+        margin: 0;
+        padding-top: 250px;
+    }
+    .citation{
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 12px;
+        display: inline-block;    
+    }
+
+
+
+    /*  *//*  *//*  *//*  */
+    /* HISTORY SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #history-section{
+        background-color: #E6382C;
+    }
+    #container #history-section #history-header{
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;   
+    }
+    #container #history-section #history-header h1{
+        position: relative;
+        color: #151515;
+        line-height: 1;
+        z-index: 1;
+    }
+    #container #history-section #history-header #historyImage{
+        display: inline-block;
+        position: relative;
+        top: -70px;
+        z-index: 0;
+    }
+    #container #history-section #history-header p{
+        position: relative;
+        top: -70px;
+    }
+    #container #history-section #history-header #history-triangle{
+        position: relative;
+        z-index: 1;
+        right: 0;
+        top: 0;
+        opacity: 0.85;
+    }
+    #container #history-section #history-content #history-1,
+    #container #history-section #history-content #history-2{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 18px;
+        max-width: 540px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #container #history-section #history-content #history-1{
+        margin-top: 5vh;
+        margin-left: 7vw;
+        position: relative; 
+        z-index: 1;
+    }
+    #container #history-section #history-content #history-image{
+        margin-left: 25vw;
+        margin-top: 15vh;
+        width: 70%;
+    }
+    #container #history-section #history-content #history-2{
+        margin-top: 8vh;
+        margin-left: 37vw;
+    }
+    #container #history-section #history-footer{
+        margin: 0 auto;
+        max-width: 950px;
+        width: 100%;
+        text-align: center;
+    }
+    .quote-symbol{
+        font-size: 70px;
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        margin:0;
+        padding: 0;
+
+        position: relative;
+        top: 35px;
+        z-index: 1;
+
+        margin-top: 37vh;
+
+    }
+
+    .history-quote{
+        font-family: ohno-blazeface,sans-serif;
+        font-style: normal;
+        color: #151515;
+        font-size: 55px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        z-index:1;
+        /* margin-top: 30vh; */
+    }
+    #container #history-section #history-footer img{
+        width: 50%;
+        position: relative;
+        z-index: 0;
+        top: -45vh;
+
+    }
+
+
+    /*  *//*  *//*  *//*  */
+    /*   SEX SECTION    */
+    /*  *//*  *//*  *//*  */
+    #container #sex-section{
+        /* height: 100%; */
+        background-color: #FFCF07;
+    }
+    #container #sex-section #sex-header h1{
+        text-align: center;
+    }
+    #container #sex-section #sex-content video{
+        border-radius: 15px;
+        outline: none;
+        margin-left: 8vw;
+        position: relative; 
+        z-index:1;
+    }
+    #container #sex-section #sex-content #sex-image1{
+        width: 40%;
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+        position: relative;
+        right: 3vw;
+        z-index:0;
+    }
+    #container #sex-section #sex-content #sex-citation{
+        position: relative;
+        top: -15vh;
+        left: -3vw;
+    }
+    #container #sex-section #sex-content #sex-quote{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 20px;
+        max-width: 560px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 25vw;
+        margin-top: 8vh;
+    }
+    #container #sex-section #sex-content #sex-quote span{
+        font-style: italic;
+        font-weight: 600;
+    }
+    #container #sex-section #sex-content #sex-1{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 18px;
+        max-width: 560px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 3vh;
+        margin-left: 25vw;
+        margin-bottom: 0;
+    }
+    #container #sex-section #sex-content #sex-quote-section{
+        margin: 0 auto;
+        max-width: 950px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    #container #sex-section #sex-content #sex-quote-section img{
+        width: 85%;
+        position: relative;
+        z-index: 0;
+        top: -70vh;
+    }
+    #container #sex-section #sex-content #sex-image2{
+        width: 100%;
+        max-width: 90%;
+        margin-left: 5vw;
+        margin-top: -50vh;
+
+        position: relative;
+        z-index:0;
+        
+    }
+    #container #sex-section #sex-content #sex-2{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 18px;
+        max-width: 560px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 10vh;
+        margin-left: 10vw;
+        padding-bottom: 20vh;
+    }
+
+
+    /*  *//*  *//*  *//*  */
+    /* LEGACY SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #legacy-section{
+        background-color: #16752B;
+    }
+    #container #legacy-section #legacy-header{
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;   
+    }
+    #container #legacy-section #legacy-header h1{
+        color: white;
+        text-align: center;
+        /* font-size: 170px; */
+        padding-top: 250px;
+    }
+    #container #legacy-section #legacy-header #legacy-image1{
+        text-align: center;
+        position: relative;
+        z-index: 0;
+        margin-left: 2vw;
+        padding-top: 10vh;
+        margin-bottom: 18vw;
+    }
+    #container #legacy-section #legacy-header #legacy-image2{
+        text-align: center;
+        position: relative;
+        height: 35vh;
+        z-index:1;
+        opacity: 0.85;
+        z-index: 2;
+        margin-top: -30vw;
+        margin-right: -5vw;
+    }
+    #container #legacy-section #legacy-header p{
+        display: inline-block;
+        position: relative;
+        top: -18vw;
+    }
+    #container #legacy-content #legacy-1{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px;
+        max-width: 540px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 30vw;
+        margin-top: 10vh;
+    }
+    #container #legacy-section #legacy-content video{
+        border-radius: 15px;
+        outline: none;
+        margin-left: 50vw;
+        margin-top: 5vh;
+        width: 100%;
+        max-width: 40%;
+        position: relative; 
+        z-index:1;
+    }
+    #container #legacy-section #legacy-content #legacy-image3{
+        max-width: 75%;
+        width: 100%;
+        margin-left: 5vw;
+        margin-top: -10vh;
+    }
+
+    #container #legacy-content #legacy-2{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px;
+        max-width: 540px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 10vh;
+        margin-left: 8vw;
+        margin-bottom: 0;
+    }
+    #legacy-space{
+        padding-bottom: 40vh;
+    }
+
+    /*  *//*  *//*  *//*  */
+    /* SOURCES SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #sources-section{
+        height: 100%;
+        background-color: #404040;
+        margin: 0 auto; 
+        width: 100%;
+        max-width: 100%;
+
+    }
+    #container #sources-section #sources-content{
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    #sources-section h1{
+        color: white;
+        text-align: center;
+    }
+    ul{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+    }
     
 }
-#container #sex-section #sex-content #sex-2{
-    font-family: p22-underground,sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: black;
-    font-size: 20px;
-    max-width: 560px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    margin-top: 10vh;
-    margin-left: 3vw;
-    padding-bottom: 20vh;
+
+
+
+
+
+
+/* TABLETS AND IPADS */
+@media (min-width: 768px) and (max-width: 1024px) {
+      /*  *//*  *//*  *//*  */
+    /* LANDING SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #landing{
+        background-image: url("media/saltnpepa.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #container #landing h1{
+        color: white;
+        font-size: 90px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+        position: relative; 
+        top: 33%;
+    }
+    #container #landing #landing-sticker{
+        height: 140px;
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    #container #landing #buttons-section{
+        /* MAKE BUTTON SECTION DISAPPEAR AT CERTAIN SIZE */
+        position: fixed;
+        right: 60px;
+        top: 40px;
+    }
+    #container #landing #buttons-section button{
+        display: block;
+    }
+    #container #landing #buttons-section .landing-buttons{
+        border: 1px solid #d7d7d7;
+        outline: none;
+        background-color: transparent;
+        border-radius: 100px;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+    }
+    #container #landing #buttons-section .buttons-image{
+        height: 15px;
+    }
+    #container #landing #author-section{
+        padding-right: 30px;
+        text-align: right;
+        position: absolute;
+        bottom: 100px;
+        right: 0px;
+
+    }
+    #container #landing #author-section h3{
+        color: white;
+        margin: 0;
+        padding: 0; 
+        font-family: p22-underground,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+    }
+    #container #landing #author-section span{
+        font-family: p22-underground,sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+    #container #landing h2{
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        color: white;
+        font-size: 40px;
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+    }
+
+    .sectionHeaders{
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 90px;
+        margin: 0;
+        padding-top: 250px;
+    }
+    .citation{
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 10px;
+        display: inline-block;    
+    }
+
+
+
+    /*  *//*  *//*  *//*  */
+    /* HISTORY SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #history-section{
+        background-color: #E6382C;
+    }
+    #container #history-section #history-header{
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;   
+    }
+    #container #history-section #history-header h1{
+        position: relative;
+        color: #151515;
+        line-height: 1;
+        z-index: 1;
+    }
+    #container #history-section #history-header #historyImage{
+        display: inline-block;
+        position: relative;
+        top: -70px;
+        z-index: 0;
+        width: 80vw;
+    }
+    #container #history-section #history-header p{
+        position: relative;
+        top: -70px;
+    }
+    #container #history-section #history-header #history-triangle{
+        position: relative;
+        z-index: 1;
+        right: 0;
+        top: 0;
+        opacity: 0.85;
+    }
+    #container #history-section #history-content #history-1,
+    #container #history-section #history-content #history-2{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 14px;
+        max-width: 400px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #container #history-section #history-content #history-1{
+        margin-top: 5vh;
+        margin-left: 7vw;
+        position: relative; 
+        z-index: 1;
+    }
+    #container #history-section #history-content #history-image{
+        margin-left: 23vw;
+        margin-top: 15vh;
+        width: 70%;
+    }
+    #container #history-section #history-content #history-2{
+        margin-top: 8vh;
+        margin-left: 30vw;
+    }
+    #container #history-section #history-footer{
+        margin: 0 auto;
+        max-width: 600px;
+        width: 100%;
+        text-align: center;
+    }
+    .quote-symbol{
+        font-size: 50px;
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        margin:0;
+        padding: 0;
+
+        position: relative;
+        top: 10px;
+        z-index: 1;
+
+        margin-top: 20vh;
+
+    }
+
+    .history-quote{
+        font-family: ohno-blazeface,sans-serif;
+        font-style: normal;
+        color: #151515;
+        font-size: 35px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        z-index:1;
+        /* margin-top: 30vh; */
+    }
+    #container #history-section #history-footer img{
+        width: 50%;
+        position: relative;
+        z-index: 0;
+        top: -30vh;
+
+    }
+
+
+    /*  *//*  *//*  *//*  */
+    /*   SEX SECTION    */
+    /*  *//*  *//*  *//*  */
+    #container #sex-section{
+        /* height: 100%; */
+        background-color: #FFCF07;
+    }
+    #container #sex-section #sex-header h1{
+        text-align: center;
+    }
+    #container #sex-section #sex-content video{
+        border-radius: 15px;
+        outline: none;
+        margin-left: 8vw;
+        position: relative; 
+        z-index:1;
+        width: 35vw;
+    }
+    #container #sex-section #sex-content #sex-image1{
+        width: 40%;
+        margin-top: 8vh;
+        margin-bottom: 15vh;
+        position: relative;
+        right: 3vw;
+        z-index:0;
+    }
+    #container #sex-section #sex-content #sex-citation{
+        position: relative;
+        top: -15vh;
+        left: -3vw;
+    }
+    #container #sex-section #sex-content #sex-quote{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 14px;
+        max-width: 500px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 17vw;
+        margin-top: 8vh;
+    }
+    #container #sex-section #sex-content #sex-quote span{
+        font-style: italic;
+        font-weight: 600;
+    }
+    #container #sex-section #sex-content #sex-1{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 14px;
+        max-width: 500px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 3vh;
+        margin-left: 17vw;
+        margin-bottom: 0;
+    }
+    #container #sex-section #sex-content #sex-quote-section{
+        margin: 0 auto;
+        max-width: 950px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    #container #sex-section #sex-content #sex-quote-section img{
+        width: 65%;
+        position: relative;
+        z-index: 0;
+        top: -35vh;
+    }
+    #container #sex-section #sex-content #sex-image2{
+        width: 100%;
+        max-width: 90%;
+        margin-left: 5vw;
+        margin-top: -50vh;
+        position: relative;
+        z-index:0;
+        
+    }
+    #container #sex-section #sex-content #sex-2{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 14px;
+        max-width: 400px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 10vh;
+        margin-left: 10vw;
+        padding-bottom: 20vh;
+    }
+
+
+    /*  *//*  *//*  *//*  */
+    /* LEGACY SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #legacy-section{
+        background-color: #16752B;
+    }
+    #container #legacy-section #legacy-header{
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;   
+    }
+    #container #legacy-section #legacy-header h1{
+        color: white;
+        text-align: center;
+        /* font-size: 170px; */
+        padding-top: 250px;
+    }
+    #container #legacy-section #legacy-header #legacy-image1{
+        text-align: center;
+        position: relative;
+        z-index: 0;
+        margin-left: 2vw;
+        padding-top: 10vh;
+        margin-bottom: 18vw;
+        width: 40vw;
+    }
+    #container #legacy-section #legacy-header #legacy-image2{
+        text-align: center;
+        position: relative;
+        height: 35vh;
+        z-index:1;
+        opacity: 0.85;
+        z-index: 2;
+        margin-top: 5vh;
+        margin-right: -5vw;
+    }
+    #container #legacy-section #legacy-header p{
+        display: inline-block;
+        position: relative;
+        top: -18vw;
+    }
+    #container #legacy-content #legacy-1{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        max-width: 400px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 30vw;
+        margin-top: 10vh;
+    }
+    #container #legacy-section #legacy-content video{
+        border-radius: 15px;
+        outline: none;
+        margin-left: 47vw;
+        margin-top: 5vh;
+        width: 100%;
+        max-width: 40%;
+        position: relative; 
+        z-index:1;
+    }
+    #container #legacy-section #legacy-content #legacy-image3{
+        max-width: 65%;
+        width: 100%;
+        margin-left: 5vw;
+        margin-top: -5vh;
+    }
+
+    #container #legacy-content #legacy-2{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        max-width: 400px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 10vh;
+        margin-left: 8vw;
+        margin-bottom: 0;
+    }
+    #legacy-space{
+        padding-bottom: 40vh;
+    }
+
+    /*  *//*  *//*  *//*  */
+    /* SOURCES SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #sources-section{
+        height: 100%;
+        background-color: #404040;
+        margin: 0 auto; 
+        width: 100%;
+        max-width: 100%;
+
+    }
+    #container #sources-section #sources-content{
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    #sources-section h1{
+        color: white;
+        text-align: center;
+    }
+    ul{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+    }
+    
 }
 
 
-/*  *//*  *//*  *//*  */
-/* LEGACY SECTION  */
-/*  *//*  *//*  *//*  */
-#container #legacy-section{
-    background-color: #16752B;
-}
-#container #legacy-section #legacy-header{
-    margin: 0 auto;
-    max-width: 100%;
-    width: 100%;
-    text-align: center;   
-}
-#container #legacy-section #legacy-header h1{
-    color: white;
-    text-align: center;
-    font-size: 170px;
-    padding-top: 250px;
-}
-#container #legacy-section #legacy-header #legacy-image1{
-    text-align: center;
-    position: relative;
-    z-index: 0;
-    margin-left: 2vw;
-    padding-top: 10vh;
-    margin-bottom: 18vw;
-}
-#container #legacy-section #legacy-header #legacy-image2{
-    text-align: center;
-    position: relative;
-    height: 32vw;
-    z-index:1;
-    opacity: 0.85;
-    z-index: 2;
-    margin-top: -30vw;
-    margin-right: -7vw;
-}
-#container #legacy-section #legacy-header p{
-    display: inline-block;
-    position: relative;
-    top: -18vw;
-}
-#container #legacy-content #legacy-1{
-    color: white;
-    font-family: p22-underground,sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
-    max-width: 540px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    margin-left: 50vw;
-    margin-top: -15vh;
-}
-#container #legacy-section #legacy-content video{
-    border-radius: 15px;
-    outline: none;
-    margin-left: 58vw;
-    margin-top: -10vh;
-    width: 100%;
-    max-width: 40%;
-    position: relative; 
-    z-index:1;
-}
-#container #legacy-section #legacy-content #legacy-image3{
-    max-width: 75%;
-    width: 100%;
-    margin-left: 5vw;
-    margin-top: -10vh;
+
+
+
+/* WEIRD IN BETWEEN */
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /*  *//*  *//*  *//*  */
+    /* LANDING SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #landing{
+        background-image: url("media/saltnpepa.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #container #landing h1{
+        color: white;
+        font-size: 70px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+        position: relative; 
+        top: 40%;
+    }
+    #container #landing #landing-sticker{
+        height: 120px;
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    #container #landing #buttons-section{
+        /* MAKE BUTTON SECTION DISAPPEAR AT CERTAIN SIZE */
+        position: fixed;
+        right: 60px;
+        top: 40px;
+    }
+    #container #landing #buttons-section button{
+        display: block;
+    }
+    #container #landing #buttons-section .landing-buttons{
+        border: 1px solid #d7d7d7;
+        outline: none;
+        background-color: transparent;
+        border-radius: 100px;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+    }
+    #container #landing #buttons-section .buttons-image{
+        height: 15px;
+    }
+    #container #landing #author-section{
+        padding-right: 30px;
+        text-align: right;
+        position: absolute;
+        bottom: 100px;
+        right: 0px;
+
+    }
+    #container #landing #author-section h3{
+        color: white;
+        margin: 0;
+        padding: 0; 
+        font-family: p22-underground,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 12px;
+    }
+    #container #landing #author-section span{
+        font-family: p22-underground,sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+    #container #landing h2{
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+    }
+
+    .sectionHeaders{
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 60px;
+        margin: 0;
+        padding-top: 170px;
+    }
+    .citation{
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 8px;
+        display: inline-block;    
+    }
+
+
+
+    /*  *//*  *//*  *//*  */
+    /* HISTORY SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #history-section{
+        background-color: #E6382C;
+    }
+    #container #history-section #history-header{
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;   
+    }
+    #container #history-section #history-header h1{
+        position: relative;
+        color: #151515;
+        line-height: 1;
+        z-index: 1;
+    }
+    #container #history-section #history-header #historyImage{
+        display: inline-block;
+        position: relative;
+        top: -30px;
+        z-index: 0;
+        width: 80vw;
+    }
+    #container #history-section #history-header p{
+        position: relative;
+        top: -35px;
+    }
+    #container #history-section #history-header #history-triangle{
+        position: relative;
+        z-index: 1;
+        right: 0;
+        top: 0;
+        opacity: 0.85;
+    }
+    #container #history-section #history-content #history-1,
+    #container #history-section #history-content #history-2{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 12px;
+        max-width: 300px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #container #history-section #history-content #history-1{
+        margin-top: 5vh;
+        margin-left: 7vw;
+        position: relative; 
+        z-index: 1;
+    }
+    #container #history-section #history-content #history-image{
+        margin-left: 23vw;
+        margin-top: 7vh;
+        width: 60%;
+    }
+    #container #history-section #history-content #history-2{
+        margin-top: 8vh;
+        margin-left: 17vw;
+    }
+    #container #history-section #history-footer{
+        margin: 0 auto;
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+    }
+    .quote-symbol{
+        font-size: 30px;
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        margin:0;
+        padding: 0;
+
+        position: relative;
+        top: 10px;
+        z-index: 1;
+
+        margin-top: 10vh;
+
+    }
+
+    .history-quote{
+        font-family: ohno-blazeface,sans-serif;
+        font-style: normal;
+        color: #151515;
+        font-size: 25px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        z-index:1;
+        /* margin-top: 30vh; */
+    }
+    #container #history-section #history-footer img{
+        width: 50%;
+        position: relative;
+        z-index: 0;
+        top: -20vh;
+
+    }
+
+
+    /*  *//*  *//*  *//*  */
+    /*   SEX SECTION    */
+    /*  *//*  *//*  *//*  */
+    #container #sex-section{
+        /* height: 100%; */
+        background-color: #FFCF07;
+    }
+    #container #sex-section #sex-header h1{
+        text-align: center;
+    }
+    #container #sex-section #sex-content video{
+        border-radius: 15px;
+        outline: none;
+        margin-left: 3vw;
+        position: relative; 
+        z-index:1;
+        width: 50vw;
+    }
+    #container #sex-section #sex-content #sex-image1{
+        width: 38%;
+        margin-top: 8vh;
+        margin-bottom: 15vh;
+        position: relative;
+        right: 3vw;
+        z-index:0;
+    }
+    #container #sex-section #sex-content #sex-citation{
+        position: relative;
+        top: -15vh;
+        left: -3vw;
+    }
+    #container #sex-section #sex-content #sex-quote{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 12px;
+        max-width: 350px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 8vw;
+        margin-top: 8vh;
+    }
+    #container #sex-section #sex-content #sex-quote span{
+        font-style: italic;
+        font-weight: 600;
+    }
+    #container #sex-section #sex-content #sex-1{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 12px;
+        max-width: 350px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 3vh;
+        margin-left: 8vw;
+        margin-bottom: 0;
+    }
+    #container #sex-section #sex-content #sex-quote-section{
+        margin: 0 auto;
+        max-width: 950px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    #container #sex-section #sex-content #sex-quote-section img{
+        width: 65%;
+        position: relative;
+        z-index: 0;
+        top: -25vh;
+    }
+    #container #sex-section #sex-content #sex-image2{
+        width: 100%;
+        max-width: 80%;
+        margin-left: 5vw;
+        margin-top: -50vh;
+        position: relative;
+        z-index:0;
+        
+    }
+    #container #sex-section #sex-content #sex-2{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 12px;
+        max-width: 350px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 10vh;
+        margin-left: 10vw;
+        padding-bottom: 20vh;
+    }
+
+
+    /*  *//*  *//*  *//*  */
+    /* LEGACY SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #legacy-section{
+        background-color: #16752B;
+    }
+    #container #legacy-section #legacy-header{
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;   
+    }
+    #container #legacy-section #legacy-header h1{
+        color: white;
+        text-align: center;
+    }
+    #container #legacy-section #legacy-header #legacy-image1{
+        text-align: center;
+        position: relative;
+        z-index: 0;
+        margin-left: 2vw;
+        padding-top: 10vh;
+        margin-bottom: 18vw;
+        width: 70vw;
+    }
+    #container #legacy-section #legacy-header #legacy-image2{
+        text-align: center;
+        position: relative;
+        height: 40vh;
+        z-index:1;
+        opacity: 0.85;
+        z-index: 2;
+        margin-top: 5vh;
+        margin-right: 0vw;
+    }
+    #container #legacy-section #legacy-header p{
+        display: inline-block;
+        position: relative;
+        top: -18vw;
+    }
+    #container #legacy-content #legacy-1{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 12px;
+        max-width: 300px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 10vw;
+        margin-top: 5vh;
+    }
+    #container #legacy-section #legacy-content video{
+        border-radius: 15px;
+        outline: none;
+        margin-left: 17vw;
+        margin-top: 5vh;
+        width: 100%;
+        max-width: 60%;
+        position: relative; 
+        z-index:1;
+    }
+    #container #legacy-section #legacy-content #legacy-image3{
+        max-width: 85%;
+        width: 100%;
+        margin-left: 5vw;
+        margin-top: 10vh;
+    }
+
+    #container #legacy-content #legacy-2{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 12px;
+        max-width: 300px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 10vh;
+        margin-left: 8vw;
+        margin-bottom: 0;
+    }
+    #legacy-space{
+        padding-bottom: 40vh;
+    }
+
+    /*  *//*  *//*  *//*  */
+    /* SOURCES SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #sources-section{
+        height: 100%;
+        background-color: #404040;
+        margin: 0 auto; 
+        width: 100%;
+        max-width: 100%;
+
+    }
+    #container #sources-section #sources-content{
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    #sources-section h1{
+        color: white;
+        text-align: center;
+    }
+    ul{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 14px;
+    }
+    
 }
 
-#container #legacy-content #legacy-2{
-    color: white;
-    font-family: p22-underground,sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
-    max-width: 540px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    margin-top: 10vh;
-    margin-left: 8vw;
-    margin-bottom: 0;
-}
-#legacy-space{
-    padding-bottom: 40vh;
-}
 
-/*  *//*  *//*  *//*  */
-/* SOURCES SECTION  */
-/*  *//*  *//*  *//*  */
-#container #sources-section{
-    height: 100%;
-    background-color: #404040;
-    margin: 0 auto; 
-    width: 100%;
-    max-width: 100%;
 
-}
-#container #sources-section #sources-content{
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-}
-#sources-section h1{
-    color: white;
-    text-align: center;
-}
-ul{
-    color: white;
-    font-family: p22-underground,sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 20px;
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+      
+    /*  *//*  *//*  *//*  */
+    /* LANDING SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #landing{
+        background-image: url("media/saltnpepa.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #container #landing h1{
+        color: white;
+        font-size: 50px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        position: relative; 
+        top: 50%;
+    }
+    #container #landing #landing-sticker{
+        height: 120px;
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    #container #landing #buttons-section{
+        /* MAKE BUTTON SECTION DISAPPEAR AT CERTAIN SIZE */
+        position: fixed;
+        right: 60px;
+        top: 40px;
+    }
+    #container #landing #buttons-section button{
+        display: block;
+    }
+    #container #landing #buttons-section .landing-buttons{
+        border: 1px solid #d7d7d7;
+        outline: none;
+        background-color: transparent;
+        border-radius: 100px;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+    }
+    #container #landing #buttons-section .buttons-image{
+        height: 15px;
+    }
+    #container #landing #author-section{
+        padding-right: 30px;
+        text-align: right;
+        position: absolute;
+        bottom: 100px;
+        right: 0px;
+
+    }
+    #container #landing #author-section h3{
+        color: white;
+        margin: 0;
+        padding: 0; 
+        font-family: p22-underground,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 12px;
+    }
+    #container #landing #author-section span{
+        font-family: p22-underground,sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+    #container #landing h2{
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+    }
+
+    .sectionHeaders{
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 40px;
+        margin: 0;
+        padding-top: 100px;
+    }
+    .citation{
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 6px;
+        display: inline-block;    
+    }
+
+
+
+    /*  *//*  *//*  *//*  */
+    /* HISTORY SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #history-section{
+        background-color: #E6382C;
+    }
+    #container #history-section #history-header{
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;   
+    }
+    #container #history-section #history-header h1{
+        position: relative;
+        color: #151515;
+        line-height: 1;
+        z-index: 1;
+    }
+    #container #history-section #history-header #historyImage{
+        display: inline-block;
+        position: relative;
+        top: -30px;
+        z-index: 0;
+        width: 80vw;
+    }
+    #container #history-section #history-header p{
+        position: relative;
+        top: -35px;
+    }
+    #container #history-section #history-header #history-triangle{
+        position: relative;
+        z-index: 1;
+        right: 0;
+        top: 0;
+        opacity: 0.85;
+    }
+    #container #history-section #history-content #history-1,
+    #container #history-section #history-content #history-2{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 12px;
+        max-width: 225px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #container #history-section #history-content #history-1{
+        margin-top: 5vh;
+        margin-left: 3vw;
+        position: relative; 
+        z-index: 1;
+    }
+    #container #history-section #history-content #history-image{
+        margin-left: 23vw;
+        margin-top: 7vh;
+        width: 60%;
+    }
+    #container #history-section #history-content #history-2{
+        margin-top: 8vh;
+        margin-left: 17vw;
+    }
+    #container #history-section #history-footer{
+        margin: 0 auto;
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+    }
+    .quote-symbol{
+        font-size: 30px;
+        font-family: ohno-blazeface,sans-serif;
+        font-weight: 100;
+        margin:0;
+        padding: 0;
+
+        position: relative;
+        top: 10px;
+        z-index: 1;
+
+        margin-top: 10vh;
+
+    }
+
+    .history-quote{
+        font-family: ohno-blazeface,sans-serif;
+        font-style: normal;
+        color: #151515;
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        z-index:1;
+        /* margin-top: 30vh; */
+    }
+    #container #history-section #history-footer img{
+        width: 50%;
+        position: relative;
+        z-index: 0;
+        top: -17vh;
+
+    }
+
+
+    /*  *//*  *//*  *//*  */
+    /*   SEX SECTION    */
+    /*  *//*  *//*  *//*  */
+    #container #sex-section{
+        /* height: 100%; */
+        background-color: #FFCF07;
+    }
+    #container #sex-section #sex-header h1{
+        text-align: center;
+    }
+    #container #sex-section #sex-content video{
+        border-radius: 15px;
+        outline: none;
+        margin-left: 20vw;
+        margin-top: 10vh;
+        position: relative; 
+        z-index:1;
+        width: 70vw;
+        
+    }
+    #container #sex-section #sex-content #sex-image1{
+        width: 65%;
+        margin-top: 8vh;
+        margin-bottom: 15vh;
+        margin-left: 20vw;
+        position: relative;
+        right: 3vw;
+        z-index:0;
+    }
+    #container #sex-section #sex-content #sex-citation{
+        position: relative;
+        top: -15vh;
+        left: -3vw;
+    }
+    #container #sex-section #sex-content #sex-quote{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 12px;
+        max-width: 250px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 8vw;
+        margin-top: 0vh;
+    }
+    #container #sex-section #sex-content #sex-quote span{
+        font-style: italic;
+        font-weight: 600;
+    }
+    #container #sex-section #sex-content #sex-1{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 12px;
+        max-width: 250px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 3vh;
+        margin-left: 8vw;
+        margin-bottom: 0;
+    }
+    #container #sex-section #sex-content #sex-quote-section{
+        margin: 0 auto;
+        max-width: 950px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    #container #sex-section #sex-content #sex-quote-section img{
+        width: 65%;
+        position: relative;
+        z-index: 0;
+        top: -20vh;
+    }
+    #container #sex-section #sex-content #sex-image2{
+        width: 100%;
+        max-width: 80%;
+        margin-left: 5vw;
+        margin-top: -50vh;
+        position: relative;
+        z-index:0;
+        
+    }
+    #container #sex-section #sex-content #sex-2{
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        font-size: 12px;
+        max-width: 250px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 10vh;
+        margin-left: 7vw;
+        padding-bottom: 20vh;
+    }
+
+
+    /*  *//*  *//*  *//*  */
+    /* LEGACY SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #legacy-section{
+        background-color: #16752B;
+    }
+    #container #legacy-section #legacy-header{
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;   
+    }
+    #container #legacy-section #legacy-header h1{
+        color: white;
+        text-align: center;
+    }
+    #container #legacy-section #legacy-header #legacy-image1{
+        text-align: center;
+        position: relative;
+        z-index: 0;
+        margin-left: 4vw;
+        padding-top: 10vh;
+        margin-bottom: 18vw;
+        width: 80vw;
+    }
+    #container #legacy-section #legacy-header #legacy-image2{
+        text-align: center;
+        position: relative;
+        height: 40vh;
+        z-index:1;
+        opacity: 0.85;
+        z-index: 2;
+        margin-top: 5vh;
+    }
+    #container #legacy-section #legacy-header p{
+        display: inline-block;
+        position: relative;
+        top: -18vw;
+    }
+    #container #legacy-content #legacy-1{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 12px;
+        max-width: 250px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 10vw;
+        margin-top: 5vh;
+    }
+    #container #legacy-section #legacy-content video{
+        border-radius: 15px;
+        outline: none;
+        margin-right: 3vw;
+        margin-left: 3vw;
+        margin-top: 5vh;
+        width: 100%;
+        max-width: 70%;
+        position: relative; 
+        z-index:1;
+    }
+    #container #legacy-section #legacy-content #legacy-image3{
+        max-width: 85%;
+        width: 100%;
+        margin-left: 5vw;
+        margin-top: 10vh;
+    }
+
+    #container #legacy-content #legacy-2{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 12px;
+        max-width: 250px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 10vh;
+        margin-left: 8vw;
+        margin-bottom: 0;
+    }
+    #legacy-space{
+        padding-bottom: 20vh;
+    }
+
+    /*  *//*  *//*  *//*  */
+    /* SOURCES SECTION  */
+    /*  *//*  *//*  *//*  */
+    #container #sources-section{
+        height: 100%;
+        background-color: #404040;
+        margin: 0 auto; 
+        width: 100%;
+        max-width: 100%;
+
+    }
+    #container #sources-section #sources-content{
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    #sources-section h1{
+        color: white;
+        text-align: center;
+    }
+    ul{
+        color: white;
+        font-family: p22-underground,sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 14px;
+        padding: 10px;
+        margin: 5px
+    }
 }
